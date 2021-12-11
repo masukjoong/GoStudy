@@ -1,6 +1,6 @@
 package recursion
 
-import . "basics/ds"
+import . "basics/dw/ds"
 
 func ReverseLinkedList(list *LinkedList) *LinkedList {
 	head := list.Head

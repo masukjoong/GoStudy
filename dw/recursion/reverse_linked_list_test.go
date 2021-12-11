@@ -1,7 +1,7 @@
 package recursion
 
 import "testing"
-import . "basics/ds"
+import . "basics/dw/ds"
 
 func TestReverseLinkedList(t *testing.T) {
 	tail := &Node{Data: 4}
@@ -9,7 +9,7 @@ func TestReverseLinkedList(t *testing.T) {
 	linkedList := &LinkedList{Head: head, Tail: tail}
 	ReverseLinkedList(linkedList)
 	curr := tail
-	for i:=4;i>0;i-- {
+	for i := 4; i > 0; i-- {
 		if curr.Data != i {
 			t.Errorf("curr.Data = %d; want %d", curr.Data, i)
 		}

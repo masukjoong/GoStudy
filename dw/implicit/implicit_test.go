@@ -5,7 +5,7 @@ package implicit
 // Duck typing 이라고도 불린다.
 // Python 과 같은 interpreter language 에서 지원하는 유연성을 compile language 에서 지원한다!
 func ExamplePrint() {
-	phone := &Phone{1,2,3,4,5,6,7}
+	phone := &Phone{1, 2, 3, 4, 5, 6, 7}
 	Print(phone)
 	// Output: 1234567
 }
